@@ -1,5 +1,5 @@
 
-# Function definition
+#Function definition
 def f(x):
     return (1 - x**2) ** 0.5 # Function
 
@@ -18,7 +18,6 @@ def Riemannsum(a,b,n):
         area =  area + (f(a) * deltax)
         a = a + deltax
     return area
-
 
 #Outputs
 area = Riemannsum(lower,upper,subinterval1)
